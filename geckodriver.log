@@ -40,4 +40,149 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-[GPU 9984
+[GPU 99841570800195667	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\gfeli\\AppData\\Local\\Temp\\rust_mozprofilekFBPVE"
+1570800199731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1570800199731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1570800199732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1570800199732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1570800208340	Marionette	INFO	Listening on port 55546
+1570800208949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1570800826186	Marionette	INFO	Stopped listening on port 55546
+[Parent 12704, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568728986/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12704, Gecko_IOThread] WARNING: file z:/task_1568728986/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"SessionStore: flushing all windows","state":{"total":1,"current":0},"filename":"resource:///modules/sessionstore/SessionStore.jsm","lineNumber":1819,"stack":["resource:///modules/sessionstore/SessionStore.jsm:ssi_onQuitApplicationGranted:1819","resource:///modules/sessionstore/SessionStore.jsm:ssi_observe:872","chrome://marionette/content/driver.js:GeckoDriver.prototype.quit:3494","chrome://marionette/content/server.js:despatch:305","chrome://marionette/content/server.js:execute:275","chrome://marionette/content/server.js:onPacket/<:248","chrome://marionette/content/server.js:onPacket:249","chrome://marionette/content/transport.js:_onJSONObjectReady/<:503"]}] Barrier: quit-application-granted
+1570800841687	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841709	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841845	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841848	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841851	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841853	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841871	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841873	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841874	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841877	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841880	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841883	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841885	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+1570800841887	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1483:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1483:17
+updateBlocklistState@XPIDatabase.jsm:610:19
+observe@AsyncShutdown.jsm:551:16
+GeckoDriver.prototype.quit@driver.js:3494:20
+despatch@server.js:305:40
+execute@server.js:275:16
+onPacket/<@server.js:248:20
+onPacket@server.js:249:9
+_onJSONObjectReady/<@transport.js:503:20
+[Parent 12704, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1568728986/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+[Parent 12704, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1568728986/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+JavaScript error: resource:///modules/sessionstore/SessionStore.jsm, line 1840: TypeError: subject.QueryInterface is not a function
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 12704, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1568728986/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
